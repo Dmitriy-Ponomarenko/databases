@@ -1,0 +1,18 @@
+Verwaltungsrat:
+  description: "Oberstes Gremium, trägt die gesamte Verantwortung"
+  CEO:
+    description: "Chief Executive Officer – Geschäftsführung"
+    CFO:
+      description: "Chief Financial Officer – Finanzchef"
+    CIO:
+      description: "Chief Information Officer – IT-Chef"
+    CPO:
+      description: "Chief Procurement Officer – Einkaufsleiter"
+      Abteilungsleiter 1:
+        description: "Leitet eine Fachabteilung im Einkauf"
+      Abteilungsleiter 2:
+        description: "Leitet eine Fachabteilung im Einkauf"
+      Abteilungsleiter 3:
+        description: "Leitet eine Fachabteilung im Einkauf"
+      Weitere Abteilungsleiter:
+        description: "Leitet eine Fachabteilung im Einkauf"
