@@ -38,6 +38,15 @@ const calcAverageCalories = (days) => {
   return days.length === 0 ? 0 : totalCalories / days.length;
 };
 
+// No reduce way
+const calcAverageCalories1 = (days) => {
+  let totalCalories = 0;
+  for (const day of days) {
+    totalCalories += day.calories;
+  }
+  return days.length === 0 ? 0 : totalCalories / days.length;
+};
+
 console.log(
   calcAverageCalories([
     { day: "monday", calories: 3010 },
